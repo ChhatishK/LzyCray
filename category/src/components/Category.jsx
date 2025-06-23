@@ -19,7 +19,7 @@ const Category = () => {
   // Save changes to localStorage
   const handleSaveChanges = () => {
     localStorage.setItem("categories", JSON.stringify(categories));
-    alert("✅ Categories saved!");
+    alert(" Categories saved!");
   };
 
   // Edit a category
