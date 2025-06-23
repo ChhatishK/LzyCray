@@ -1,9 +1,14 @@
-
+import AdvertismentForm from './piyush-task/Advertismentpage';
 
 function App() {
   return (
-    <div className='text-2xl font-bold'>App</div>
-  )
+    <div>
+      
+      <div className="bg-gray-50 min-h-screen p-4">
+        <AdvertismentForm />
+      </div>
+    </div>
+  );
 }
 
-export default App
+export default App;
