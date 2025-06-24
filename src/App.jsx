@@ -1,7 +1,13 @@
 
+import AppRoutes from "./routes"
+import Navbar from "./components/common/Navbar"
+
 function App() {
   return (
-    <div className='text-2xl font-bold'>App</div>
+    <div className='w-screen min-h-screen overflow-x-hidden'>
+      <Navbar />
+      <AppRoutes />
+    </div>
   )
 }
 
